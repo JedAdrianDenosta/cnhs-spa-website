@@ -22,7 +22,7 @@ const about = [
     name: "About Us",
     description:
       "This section is dedicated to the purpose of providing information about the school and its history.",
-    href: "/",
+    href: "/#faculty",
     icon: ChartBarIcon,
   },
   {
@@ -169,22 +169,6 @@ export default function Nav() {
                             </a>
                           ))}
                         </div>
-                        <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                          {callsToAction.map((item) => (
-                            <div key={item.name} className="flow-root">
-                              <a
-                                href={item.href}
-                                className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                              >
-                                <item.icon
-                                  className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                  aria-hidden="true"
-                                />
-                                <span className="ml-3">{item.name}</span>
-                              </a>
-                            </div>
-                          ))}
-                        </div>
                       </div>
                     </Popover.Panel>
                   </Transition>
@@ -193,14 +177,14 @@ export default function Nav() {
             </Popover>
             {/* Programmes Oferred */}
             <a
-              href="/"
+              href="#programs"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Programmes Offered
             </a>
             {/* Faculty and Staff */}
             <a
-              href="/"
+              href="#faculty"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Faculty and Staff
