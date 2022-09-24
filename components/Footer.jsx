@@ -14,7 +14,7 @@ const Footer = () => {
           <span className="flex justify-center text-center text-sm">
             &#169;2022 Cuartero NHS - Special Program in the Arts. All Rights
             Reserved. <br />
-            Made with 🧡 by Jed Adrian Denosta 🍊
+            Made with ❤️ by Jed Adrian Denosta
           </span>
         </div>
       </footer>

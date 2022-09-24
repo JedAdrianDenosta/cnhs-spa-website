@@ -65,14 +65,16 @@ const dance = () => {
         </div>
       </div>
       {/* Image */}
-      <Image
-        layout="intrinsic"
-        src="/programs-assets/dance.svg"
-        alt="Hero Image"
-        width={650}
-        height={650}
-        className="pt-8"
-      />
+      <div className="pt-8 hidden lg:flex">
+        {" "}
+        <Image
+          layout="intrinsic"
+          src="/programs-assets/dance.svg"
+          alt="Hero Image"
+          width={650}
+          height={650}
+        />
+      </div>
     </div>
   );
 };

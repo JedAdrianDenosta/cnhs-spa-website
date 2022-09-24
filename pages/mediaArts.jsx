@@ -65,14 +65,15 @@ const mediaArts = () => {
         </div>
       </div>
       {/* Image */}
-      <Image
-        layout="intrinsic"
-        src="/programs-assets/media-arts.svg"
-        alt="Hero Image"
-        width={650}
-        height={650}
-        className="pt-8"
-      />
+      <div className="pt-8 hidden lg:flex">
+        <Image
+          layout="intrinsic"
+          src="/programs-assets/media-arts.svg"
+          alt="Hero Image"
+          width={650}
+          height={650}
+        />
+      </div>
     </div>
   );
 };
