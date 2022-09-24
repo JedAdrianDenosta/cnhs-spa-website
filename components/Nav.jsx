@@ -103,12 +103,12 @@ export default function Nav() {
             </Link>
           </div>
           {/* Mobile Navbar */}
-          <div className="-mr-2 -my-2 md:hidden">
+          {/* <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
-          </div>
+          </div> */}
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
             <Link href="/">
               <span className="text-base font-medium text-gray-500 hover:text-gray-900 hover:cursor-pointer">
@@ -116,7 +116,7 @@ export default function Nav() {
               </span>
             </Link>
 
-            <Popover className="relative">
+            {/* <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -173,7 +173,7 @@ export default function Nav() {
                   </Transition>
                 </>
               )}
-            </Popover>
+            </Popover> */}
 
             <Link href="/">
               <span className="text-base font-medium text-gray-500 hover:text-gray-900 hover:cursor-not-allowed">
