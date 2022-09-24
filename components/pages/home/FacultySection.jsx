@@ -229,7 +229,7 @@ const FacultySection = () => {
             className="rounded-full w-auto h-10"
           />
           <h1 className="text-xl font-semibold text-slate-600">
-            Mrs. Lady Mae M. Miranda - Onato
+            Mrs. Lady Mae Miranda - Onato
           </h1>
           <p className="text-slate-400 text-sm">
             Bachelor in Secondary Edcation - English, Master of Arts in
