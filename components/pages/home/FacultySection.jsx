@@ -218,18 +218,18 @@ const FacultySection = () => {
           </div>
         </div>
 
-        {/* Ms. Lady Mae M. Miranda */}
+        {/* Mrs. Lady Mae M. Miranda - Onato */}
         <div className="shadow-xl hover:shadow-blue-500/60 hover:shadow-2xl space-y-8 flex flex-col justify-center bg-white p-16 rounded-lg max-w-md">
           <Image
             layout="intrinsic"
             src="/lady.png"
-            alt="Ms. Lady Mae M. Miranda Photo"
+            alt="Ms. Lady Mae M. Miranda - Onato Photo"
             width={300}
             height={300}
             className="rounded-full w-auto h-10"
           />
           <h1 className="text-xl font-semibold text-slate-600">
-            Ms. Lady Mae M. Miranda
+            Mrs. Lady Mae M. Miranda - Onato
           </h1>
           <p className="text-slate-400 text-sm">
             Bachelor in Secondary Edcation - English, Master of Arts in
