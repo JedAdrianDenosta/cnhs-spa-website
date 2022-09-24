@@ -8,7 +8,7 @@ const FacultySection = () => {
       className="mt-10 mx-auto max-w-7xl px-8 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 text-slate-700 space-y-8"
     >
       <h1 className="text-4xl font-bold">✏️ Faculty and Staff</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mt-10 mx-auto max-w-7xl px-8 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mt-10 mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         {/* Mr. Ramie F. Capuyan */}
         <div className="shadow-xl hover:shadow-blue-500/60 hover:shadow-2xl space-y-8 flex flex-col justify-center bg-white p-16 rounded-lg max-w-md">
           <Image

@@ -116,7 +116,7 @@ export default function Nav() {
               </span>
             </Link>
 
-            {/* <Popover className="relative">
+            <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -150,7 +150,7 @@ export default function Nav() {
                           {about.map((item) => (
                             <Link
                               key={item.name}
-                              href="/"
+                              href={item.href}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon
@@ -173,7 +173,7 @@ export default function Nav() {
                   </Transition>
                 </>
               )}
-            </Popover> */}
+            </Popover>
 
             <Link href="/">
               <span className="text-base font-medium text-gray-500 hover:text-gray-900 hover:cursor-not-allowed">

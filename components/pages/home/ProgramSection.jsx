@@ -16,7 +16,7 @@ const ProgramSection = () => {
       >
         <div className="mt-10 mx-auto max-w-7xl px-8 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 py-32 space-y-16">
           <h1 className="text-4xl font-bold">💡Programmes we offer</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-content-center gap-16 mt-10 mx-auto max-w-7xl px-8 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-content-center gap-16 mt-10 mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             {/* Music (Voice/Instrument) */}
             <div className="hover:shadow-lg space-y-8 flex flex-col justify-center bg-white p-16 rounded-lg">
               <Music className="h-32 w-auto text-blue-400" />
