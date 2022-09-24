@@ -22,7 +22,7 @@ const about = [
     name: "About Us",
     description:
       "This section is dedicated to the purpose of providing information about the school and its history.",
-    href: "/#faculty",
+    href: "/",
     icon: ChartBarIcon,
   },
   {
@@ -110,14 +110,13 @@ export default function Nav() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            <Link
-              href="/"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Home
+            <Link href="/">
+              <span className="text-base font-medium text-gray-500 hover:text-gray-900 hover:cursor-pointer">
+                Home
+              </span>
             </Link>
 
-            <Popover className="relative">
+            {/* <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -126,7 +125,7 @@ export default function Nav() {
                       "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     )}
                   >
-                    <span>About</span>
+                    <span className=" hover:cursor-not-allowed">About</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? "text-gray-600" : "text-gray-400",
@@ -151,7 +150,7 @@ export default function Nav() {
                           {about.map((item) => (
                             <Link
                               key={item.name}
-                              href={item.href}
+                              href="/"
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon
@@ -174,20 +173,25 @@ export default function Nav() {
                   </Transition>
                 </>
               )}
-            </Popover>
+            </Popover> */}
+
+            <Link href="/">
+              <span className="text-base font-medium text-gray-500 hover:text-gray-900 hover:cursor-not-allowed">
+                About
+              </span>
+            </Link>
+
             {/* Programmes Oferred */}
-            <Link
-              href="#programs"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Programmes Offered
+            <Link href="/">
+              <span className="text-base font-medium text-gray-500 hover:text-gray-900 hover:cursor-not-allowed">
+                Programmes Offered
+              </span>
             </Link>
             {/* Faculty and Staff */}
-            <Link
-              href="#faculty"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Faculty and Staff
+            <Link href="/">
+              <span className="text-base font-medium text-gray-500 hover:text-gray-900 hover:cursor-not-allowed">
+                Faculty and Staff
+              </span>
             </Link>
           </Popover.Group>
           <div className="hidden lg:flex items-center justify-end lg:flex-1 lg:w-0 space-x-6 text-2xl">

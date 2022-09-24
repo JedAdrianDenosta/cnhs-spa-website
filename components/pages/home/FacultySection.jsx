@@ -124,7 +124,7 @@ const FacultySection = () => {
         <div className="shadow-xl hover:shadow-blue-500/60 hover:shadow-2xl space-y-8 flex flex-col justify-center bg-white p-16 rounded-lg max-w-md">
           <Image
             layout="intrinsic"
-            src="/Roda.png"
+            src="/roda.png"
             alt="Mrs. Roda G. Henorga Photo"
             width={300}
             height={300}
@@ -222,7 +222,7 @@ const FacultySection = () => {
         <div className="shadow-xl hover:shadow-blue-500/60 hover:shadow-2xl space-y-8 flex flex-col justify-center bg-white p-16 rounded-lg max-w-md">
           <Image
             layout="intrinsic"
-            src="/Lady.png"
+            src="/lady.png"
             alt="Ms. Lady Mae M. Miranda Photo"
             width={300}
             height={300}
